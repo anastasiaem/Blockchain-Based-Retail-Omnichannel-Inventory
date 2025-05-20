@@ -15,10 +15,11 @@ path = 'contracts/fulfilment.clar'
 clarity_version = 2
 epoch = 2.5
 
-[contracts.inventory-tracking_]
-path = 'contracts/inventory-tracking_.clar'
+[contracts.inventory-tracking]
+path = 'contracts/inventory-tracking.clar'
 clarity_version = 2
 epoch = 2.5
+
 [repl.analysis]
 passes = ['check_checker']
 
